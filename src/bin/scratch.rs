@@ -1,7 +1,7 @@
-use aoc2023::day01::trebuchet_pt2;
+use aoc2023::day02::cube_conundrum;
 
 fn main() -> Result<(), &'static str> {
-    let sum = trebuchet_pt2("data/day01.input")?;
-    println!("Sum is {}", sum);
+    let result = cube_conundrum("data/day02.example", 12, 13, 14)?;
+    println!("Sum is {:?}", result);
     Ok(())
 }
